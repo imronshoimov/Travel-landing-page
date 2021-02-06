@@ -1,3 +1,7 @@
+:root {
+    --hover-color: #38B3F1;
+}
+
 *, *::before, *::after {
     margin: 0;
     padding: 0;
@@ -6,9 +10,73 @@
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 ul {
     list-style: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* 
+    FIRST SECTION  
+*/
+
+.travel {
+    background-image: url(../img/mask-group.png);
+}
+
+.travel .container {
+    padding-top: 20px;
+
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    padding: 0 15px;
+    margin: 0 5px;
+}
+
+.nav-item:first-child {
+    padding-right: 100px;
+}
+
+.nav-link {
+    font-size: 19px;
+    color: rgba(255,255,255,0.7);
+    transition: color .3s;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.travel__nav__link {
+    font-size: 19px;
+    border: 3px solid var(--hover-color);
+    color: var(--hover-color);
+    padding: 10px 35px;
+    border-radius: 2px;
+    font-weight: bold;
+    transition: background .3s, color 1s;
+}
+
+.travel__nav__link:hover {
+    background-color: var(--hover-color);
+    color: white;
 }
 
