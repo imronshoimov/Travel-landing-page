@@ -131,3 +131,76 @@ ul {
     margin-left: 30px;
 }
 
+/* 
+    SECOND SECTION      
+*/
+
+.booking .container {
+    background-image: url("../img/lv2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 150px 0;
+}
+
+.booking__content__title {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.booking__content__text {
+    width: 45%;
+    color: rgba(0,0,0,0.6);
+    margin-bottom: 40px;
+}
+
+.booking__image__section {
+    display: flex;
+}
+
+.booking__images1 {
+    margin-bottom: 25px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.booking__images1__link {
+    position: absolute;
+}
+
+.booking__images2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.booking__images2__link {
+    position: absolute;
+}
+
+.booking__image {
+    margin-left: 25px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.booking__image__link {
+    position: absolute; 
+}
+
+.booking__images__link {
+    font-size: 20px;
+    border: 2px solid white;
+    padding: 20px 45px;
+    transition: .3s;
+}
+
+.booking__images__link:hover {
+    background-color: var(--bg-color);
+    border: 2px solid var(--bg-color);
+}
+
